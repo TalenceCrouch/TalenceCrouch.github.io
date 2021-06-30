@@ -1,0 +1,279 @@
+
+html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+   /* cursor: none;     */
+    background: rgb(27, 27, 27);
+    /*background-color: rgb(234, 233,22); */
+  /*  background-color: #2f2f2f;
+    background-image: url(img/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      */
+
+}
+
+
+.cursor {
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;  
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+
+}
+
+
+.cursor::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px ;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+ 
+ 
+ }
+
+@keyframes cursorAnim {
+         from {
+                     transform: scale(1);
+         }
+         to {
+                transform: scale(.7);
+         }
+}
+
+@keyframes cursorAnim2 {
+    from {
+                transform: scale(1);
+    }
+    to {
+           transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+             transform: scale(1);
+             opacity: 0;
+    }
+}
+
+ 
+
+.expand {
+          animation: cursorAnim3 .5s forwards;
+          border: 1px solid rgba(134, 25, 43, 0.849);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+        
+    height: 118px;
+    width:1024;
+
+
+}
+
+
+
+h2 {
+  
+    
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 106, 213));
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    display: inline;
+
+
+}
+
+
+p2 {
+  
+    
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 106, 213));
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+
+}
+
+
+
+p3 {
+  
+    
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 106, 213));
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    display: inline;
+
+
+}
+
+p2 {
+  
+    
+    background: linear-gradient(to left, rgb(crimson), rgb(indigo));
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    display: inline;
+
+
+}
+
+
+header {
+  
+  
+
+
+}
+
+
+nav {
+ background-color:  black;
+ height: 500px;
+ text-align: center;
+
+}
+
+
+nav1 {
+  
+    height: 100px;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-right: 1590px;
+   /* margin-top: 140px;
+    margin-bottom: 120px;   */
+    
+
+
+}
+
+
+footer {
+  
+    height: 100px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 500px;
+    padding-left: 0px;
+   /* margin-top: 140px;
+    margin-bottom: 120px;   */
+    
+
+
+}
+
+
+main {
+ background-color: ;
+ height: 400px;
+  /* text-decoration: ;    */
+
+ 
+
+}
+
+
+
+footer {
+background-color: black; 
+/* background-color: rgb(255, 47, 227);*/
+  height: 100px;
+ 
+} 
+
+
+
+
+h1 {
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+/*color: crimson;   */
+
+background: linear-gradient(to left, rgba(177, 21, 130, 0.753), rgba(59, 2, 16, 0.575));
+-webkit-background-clip: text;   
+-webkit-text-fill-color: transparent;
+display: inline;
+
+}
+
+
+
+
+p1 {
+font-size: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+a {
+ color: white;
+}
+
+
+
+
+nav1 a  {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 90px;
+}
+
+
+.no-underline {
+     text-decoration: none;
+}
+
+
+
+::selection{
+    background-color: mediumpurple;
+}
+
+
+
+
+
+
+
+

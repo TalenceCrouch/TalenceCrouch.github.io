@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mesinmer</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+    
+
+    <nav1>
+        <a href="index.html" class="no-underline">Home</a> 
+        <a href="projects.html">Projects</a> 
+       
+        <a href="artportfolio.html">Art Portfolio</a> 
+       
+        <a href="#"></a>
+       
+      </nav1>
+      
+<body>
+    
+    
+  
+
+        <!-- <div class="fsElement fsContent header-toggle" id="fsE1_946" data-use-new="true" data-ae-site-menu-link="true" == $0 ></div>  -->
+    
+         <div class="cursor"></div>
+         
+      <script>
+    
+        const cursor = document.querySelector('.cursor');
+    
+        document.addEventListener('mousemove' , e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - scrollY)+"px; left: "+(e.pageX)+"px")
+        })
+    
+         document.addEventListener('click', () => {
+              cursor.classList.add("expand");
+              setTimeout(()  =>   {
+                cursor.classList.remove("expand");
+              }, 500)
+         })
+    
+    
+      </script>
+    
+
+
+
+
+
+</body>
